@@ -85,7 +85,7 @@ func NewHTTPProxyDetailed(remote *config.Backend, re client.HTTPRequestExecutor,
 						fmt.Sprintf("error_%s", t.Name()): t,
 					},
 					Metadata: Metadata{StatusCode: t.StatusCode()},
-				}, nil
+				}, t.StatusCode()
 			}
 			return nil, err
 		}
