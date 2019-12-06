@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/proxy"
-	"github.com/eufrost/krakend/router"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/proxy"
+	"github.com/devopsfaith/krakend/router"
 )
 
 func TestEndpointHandler_ok(t *testing.T) {

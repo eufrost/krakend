@@ -3,7 +3,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 const (

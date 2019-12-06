@@ -6,7 +6,7 @@ import (
 	"plugin"
 	"strings"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 // Plugin is the interface of the loaded plugins

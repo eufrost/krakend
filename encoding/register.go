@@ -3,7 +3,7 @@ package encoding
 import (
 	"io"
 
-	"github.com/eufrost/krakend/register"
+	"github.com/devopsfaith/krakend/register"
 )
 
 // GetRegister returns the package register

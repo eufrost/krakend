@@ -4,8 +4,8 @@ package router
 import (
 	"context"
 
-	"github.com/eufrost/krakend/config"
-	http "github.com/eufrost/krakend/transport/http/server"
+	"github.com/devopsfaith/krakend/config"
+	http "github.com/devopsfaith/krakend/transport/http/server"
 )
 
 // Router sets up the public layer exposed to the users

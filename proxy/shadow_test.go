@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/logging"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/logging"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 // NewMergeDataMiddleware creates proxy middleware for merging responses from several backends

@@ -3,7 +3,7 @@ package sd
 import (
 	"testing"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 func TestRegisterSubscriberFactory_ok(t *testing.T) {

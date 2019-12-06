@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 func TestNewMergeDataMiddleware_ok(t *testing.T) {

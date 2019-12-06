@@ -3,7 +3,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 // NewStaticMiddleware creates proxy middleware for adding static values to the processed responses

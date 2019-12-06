@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/logging"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/logging"
 )
 
 const Namespace = "github_com/devopsfaith/krakend/transport/http/server/handler"

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/core"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/core"
 )
 
 // ToHTTPError translates an error into a HTTP status code

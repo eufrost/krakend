@@ -9,7 +9,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/eufrost/krakend/logging"
+	"github.com/devopsfaith/krakend/logging"
 )
 
 func TestDebugHandler(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 func TestDetailedHTTPStatusHandler(t *testing.T) {

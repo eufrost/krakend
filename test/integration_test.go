@@ -20,14 +20,14 @@ import (
 
 	"github.com/urfave/negroni"
 
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/logging"
-	"github.com/eufrost/krakend/proxy"
-	"github.com/eufrost/krakend/router/chi"
-	"github.com/eufrost/krakend/router/gin"
-	"github.com/eufrost/krakend/router/gorilla"
-	"github.com/eufrost/krakend/router/httptreemux"
-	krakendnegroni "github.com/eufrost/krakend/router/negroni"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/logging"
+	"github.com/devopsfaith/krakend/proxy"
+	"github.com/devopsfaith/krakend/router/chi"
+	"github.com/devopsfaith/krakend/router/gin"
+	"github.com/devopsfaith/krakend/router/gorilla"
+	"github.com/devopsfaith/krakend/router/httptreemux"
+	krakendnegroni "github.com/devopsfaith/krakend/router/negroni"
 )
 
 func TestKrakenD_ginRouter(t *testing.T) {
@@ -244,8 +244,8 @@ func testKrakenD(t *testing.T, runRouter func(logging.Logger, *config.ServiceCon
 			name: "header-params-all",
 			url:  "/header-params-test/all-params",
 			headers: map[string]string{
-				"x-Test-1": "some",
-				"X-TEST-2": "none",
+				"x-Test-1":   "some",
+				"X-TEST-2":   "none",
 				"User-Agent": "KrakenD Test",
 			},
 			expHeaders: defaultHeaders,

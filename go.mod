@@ -1,4 +1,4 @@
-module github.com/eufrost/krakend
+module github.com/devopsfaith/krakend
 
 go 1.13
 

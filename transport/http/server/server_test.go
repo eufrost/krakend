@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eufrost/krakend/config"
+	"github.com/devopsfaith/krakend/config"
 )
 
 func init() {

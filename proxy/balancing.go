@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/eufrost/krakend/config"
-	"github.com/eufrost/krakend/sd"
+	"github.com/devopsfaith/krakend/config"
+	"github.com/devopsfaith/krakend/sd"
 )
 
 // NewLoadBalancedMiddleware creates proxy middleware adding the most perfomant balancer
