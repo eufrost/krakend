@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/devopsfaith/krakend/logging"
+	"github.com/eufrost/krakend/logging"
 )
 
 func TestNewLoggingMiddleware_multipleNext(t *testing.T) {

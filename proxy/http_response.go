@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/devopsfaith/krakend/encoding"
+	"github.com/eufrost/krakend/encoding"
 )
 
 // HTTPResponseParser defines how the response is parsed from http.Response to Response object

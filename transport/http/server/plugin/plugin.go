@@ -7,8 +7,8 @@ import (
 	"plugin"
 	"strings"
 
-	krakendplugin "github.com/devopsfaith/krakend/plugin"
-	"github.com/devopsfaith/krakend/register"
+	krakendplugin "github.com/eufrost/krakend/plugin"
+	"github.com/eufrost/krakend/register"
 )
 
 var serverRegister = register.New()

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/eufrost/krakend/config"
 )
 
 func BenchmarkEntityFormatter_whitelistingFilter(b *testing.B) {

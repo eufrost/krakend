@@ -6,10 +6,10 @@ import (
 
 	gorilla "github.com/gorilla/mux"
 
-	"github.com/devopsfaith/krakend/logging"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
-	"github.com/devopsfaith/krakend/router/mux"
+	"github.com/eufrost/krakend/logging"
+	"github.com/eufrost/krakend/proxy"
+	"github.com/eufrost/krakend/router"
+	"github.com/eufrost/krakend/router/mux"
 )
 
 // DefaultFactory returns a net/http mux router factory with the injected proxy factory and logger

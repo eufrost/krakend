@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/eufrost/krakend/config"
 )
 
 var result interface{}

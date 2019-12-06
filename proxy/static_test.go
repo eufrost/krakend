@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/devopsfaith/krakend/config"
+	"github.com/eufrost/krakend/config"
 )
 
 func TestNewStaticMiddleware_multipleNext(t *testing.T) {

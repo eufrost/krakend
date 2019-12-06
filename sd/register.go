@@ -1,8 +1,8 @@
 package sd
 
 import (
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/register"
+	"github.com/eufrost/krakend/config"
+	"github.com/eufrost/krakend/register"
 )
 
 // RegisterSubscriberFactory registers the received factory

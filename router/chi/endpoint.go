@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router/mux"
+	"github.com/eufrost/krakend/config"
+	"github.com/eufrost/krakend/proxy"
+	"github.com/eufrost/krakend/router/mux"
 	"github.com/go-chi/chi"
 )
 

@@ -8,10 +8,10 @@ import (
 	"net/textproto"
 	"strings"
 
-	"github.com/devopsfaith/krakend/config"
-	"github.com/devopsfaith/krakend/core"
-	"github.com/devopsfaith/krakend/proxy"
-	"github.com/devopsfaith/krakend/router"
+	"github.com/eufrost/krakend/config"
+	"github.com/eufrost/krakend/core"
+	"github.com/eufrost/krakend/proxy"
+	"github.com/eufrost/krakend/router"
 )
 
 const requestParamsAsterisk string = "*"
