@@ -3,7 +3,7 @@ package proxy
 import (
 	"strings"
 
-	"github.com/eufrost/flatmap/tree"
+	"github.com/devopsfaith/flatmap/tree"
 	"github.com/eufrost/krakend/config"
 )
 
